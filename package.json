@@ -7,7 +7,7 @@
     "url": "https://pascal-iske.de"
   },
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/pascaliske/linter.git",
     "type": "git"
@@ -30,7 +30,8 @@
     "eslint-config-entoj": "^1.0.2",
     "jsonlint": "^1.6.2",
     "mz": "^2.6.0",
-    "sass-lint": "^1.10.2"
+    "sass-lint": "^1.10.2",
+    "sass-lint-config-entoj": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
