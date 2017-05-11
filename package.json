@@ -30,7 +30,8 @@
     "eslint-config-entoj": "^1.0.2",
     "jsonlint": "^1.6.2",
     "mz": "^2.6.0",
-    "sass-lint": "^1.10.2"
+    "sass-lint": "^1.10.2",
+    "sass-lint-config-entoj": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
