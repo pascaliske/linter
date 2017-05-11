@@ -35,7 +35,7 @@ export default class JSLinter {
 
         // lint the file
         const { results } = this.eslint.executeOnText(contents);
-console.log(results[0].warningCount);
+
         // return the results
         return {
             warningCount: results[0].warningCount,
