@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - '8'
+deploy:
+  provider: npm
+  email: info@pascal-iske.de
+  api_key:
+    secure: IasV7Zdl6t1+EYTUCrhk48m8aCyWHsF1g7M1GstzCwKukqGjjQdSDeU5TJRqAvNBS/tYNDX8xcOjM6w0G6Iw8QcmQgWilR4tAifd7cqHIUry6EHBOidlK/EyKooOkkyPj/i2q7xyIMBnxfOC60vrFF1wbbvejREQCFD3zHYnkeSimH3j7/5wgtVukgb4I4ptNP8She5PccbD6B2ZwkR+Pr8MjZNBaaJzFHd5yDzC6oKCvgP4VWiK+1Yie6X1QtrkfUKf7/O1Mqo2S60/lIyI5+XTKjYxmDkmXrPvvy54tohh7Of6VMbgUl8tknxCnRO4OXfYkH5LtZAXy3RnvqplRO4fgpmvv+FPmlp/zn+KeumlEKOY4cIxJxnZbI/rNnnzrHr4aPtQ408c1oS2VRU2ranM+APOvJkxTBKRfuQO94klFxeNknZgqBYw6UjrYfTOTaHd7CcHadwAA6XE66zz8PWDmLYnyTOuG6T1qhFVGu3Tgc165Lli5hGihtsh3nU3p8In8/zbEz+Wt/wloQOGmfKkjSTLH9r9VVofQq1/Zp0wPK7DZ3vsI4vDvHZFu6a5LtQE4/UZGN045lO/BEBmOARfGJ7g2FZMRvSV6FP/fhvlq/wVUM3oc6Phbw5n3CdYGdNsnsnBuwE2kTHeVVmBSnnYefSpfyg+llUjOmwewYY=
+  skip_cleanup: true
+  on:
+    tags: true
