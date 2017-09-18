@@ -9,9 +9,9 @@ export default class JsonLinter {
     /* --- constructor --- */
 
     /**
-     * Initializes the linter
+     * Initializes the linter.
      *
-     * @return {JsonLinter}
+     * @returns {JsonLinter}
      */
     constructor() {
         this.options = {};
@@ -24,10 +24,10 @@ export default class JsonLinter {
     /* --- public --- */
 
     /**
-     * Lints the given json file using jsonlint
+     * Lints the given json file using jsonlint.
      *
-     * @param {String} filename
-     * @return {Object}
+     * @param {string} filename -
+     * @returns {Object}
      */
     async lintFile(filename) {
         let error = false;
