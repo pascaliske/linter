@@ -1,11 +1,1 @@
-extends: entoj
-parser: babel-eslint
-globals:
-  process: true
-  module: true
-plugins:
-  - ava
-rules:
-  brace-style:
-    - 1
-    - 1tbs
+extends: './dist/config.js'
