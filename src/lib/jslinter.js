@@ -9,9 +9,9 @@ export default class JSLinter {
     /* --- constructor --- */
 
     /**
-     * Initializes the linter
+     * Initializes the linter.
      *
-     * @return {JSLinter}
+     * @returns {JSLinter}
      */
     constructor() {
         this.options = {};
@@ -25,10 +25,10 @@ export default class JSLinter {
     /* --- public --- */
 
     /**
-     * Lints the given js file using eslint
+     * Lints the given js file using eslint.
      *
-     * @param {String} filename
-     * @return {Object}
+     * @param {string} filename -
+     * @returns {Object}
      */
     async lintFile(filename) {
         const contents = await readFile(filename, 'utf8');

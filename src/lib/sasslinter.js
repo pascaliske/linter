@@ -9,9 +9,9 @@ export default class SassLinter {
     /* --- constructor --- */
 
     /**
-     * Initializes the linter
+     * Initializes the linter.
      *
-     * @return {SassLinter}
+     * @returns {SassLinter}
      */
     constructor() {
         this.options = {};
@@ -24,10 +24,10 @@ export default class SassLinter {
     /* --- public --- */
 
     /**
-     * Lints the given sass file using sass-lint
+     * Lints the given sass file using sass-lint.
      *
-     * @param {String} filename
-     * @return {Object}
+     * @param {string} filename -
+     * @returns {Object}
      */
     async lintFile(filename) {
         const contents = await readFile(filename, 'utf8');
